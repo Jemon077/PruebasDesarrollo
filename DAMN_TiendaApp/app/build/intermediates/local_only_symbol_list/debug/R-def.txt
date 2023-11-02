@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id emailUser
+id login_button
+id login_newAccount
+id nameUser
+id password
+id passwordUser
+id register_CreateAccount
+id surnameUser
+id telephoneUser
+id username
+layout activity_main
+layout activity_register_new_account
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.DAMN_TiendaApp
+style Theme.DAMN_TiendaApp
+xml backup_rules
+xml data_extraction_rules
