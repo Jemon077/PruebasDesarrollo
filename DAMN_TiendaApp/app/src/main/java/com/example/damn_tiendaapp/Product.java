@@ -5,9 +5,9 @@ import java.util.Currency;
 public class Product {
     private String name;
     private String description;
-    private int value;
+    private String value;
 
-    public Product(String name, String description, int value) {
+    public Product(String name, String description, String value) {
         this.name = name;
         this.description = description;
         this.value = value;
@@ -29,11 +29,11 @@ public class Product {
         this.description = description;
     }
 
-    public int getValue() {
+    public String getValue() {
         return value;
     }
 
-    public void setValue(int value) {
+    public void setValue(String value) {
         this.value = value;
     }
 }
