@@ -28,6 +28,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.DAMN_TiendaApp" >
         <activity
+            android:name="com.example.damn_tiendaapp.ProducsListAdapter"
+            android:exported="false" />
+        <activity
+            android:name="com.example.damn_tiendaapp.ProductsList"
+            android:exported="false" />
+        <activity
             android:name="com.example.damn_tiendaapp.RegisterNewAccount"
             android:exported="false" />
         <activity

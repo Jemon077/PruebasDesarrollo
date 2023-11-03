@@ -53,4 +53,10 @@
         android:layout_height="wrap_content"
         android:text="Registrar"
         android:id="@+id/register_CreateAccount" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:id="@+id/register_CancelCreate" />
 </LinearLayout>

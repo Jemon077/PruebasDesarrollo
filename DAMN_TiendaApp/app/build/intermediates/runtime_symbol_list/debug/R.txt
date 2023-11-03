@@ -2802,6 +2802,7 @@ int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
 int id CTRL 0x7f080003
 int id FUNCTION 0x7f080004
+int id ListAllProducts 0x7f0801f7
 int id META 0x7f080005
 int id NO_DEBUG 0x7f080006
 int id SHIFT 0x7f080007
@@ -3015,6 +3016,7 @@ int id ifRoom 0x7f0800d5
 int id ignore 0x7f0800d6
 int id ignoreRequest 0x7f0800d7
 int id image 0x7f0800d8
+int id imageView 0x7f0801f8
 int id immediateStop 0x7f0800d9
 int id included 0x7f0800da
 int id indeterminate 0x7f0800db
@@ -3144,6 +3146,7 @@ int id progress_horizontal 0x7f080151
 int id radio 0x7f080152
 int id ratio 0x7f080153
 int id rectangles 0x7f080154
+int id register_CancelCreate 0x7f0801fd
 int id register_CreateAccount 0x7f0801f4
 int id reverseSawtooth 0x7f080155
 int id right 0x7f080156
@@ -3282,6 +3285,9 @@ int id up 0x7f0801d8
 int id useLogo 0x7f0801d9
 int id username 0x7f0801ef
 int id vertical_only 0x7f0801da
+int id viewDescription 0x7f0801f9
+int id viewName 0x7f0801fc
+int id viewPrice 0x7f0801fb
 int id view_offset_helper 0x7f0801db
 int id view_transition 0x7f0801dc
 int id view_tree_lifecycle_owner 0x7f0801dd
@@ -3406,6 +3412,8 @@ int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_main 0x7f0b001c
+int layout activity_producs_list_adapter 0x7f0b006b
+int layout activity_products_list 0x7f0b006c
 int layout activity_register_new_account 0x7f0b006a
 int layout custom_dialog 0x7f0b001d
 int layout design_bottom_navigation_item 0x7f0b001e

@@ -2803,6 +2803,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id ListAllProducts
 id META
 id NO_DEBUG
 id SHIFT
@@ -3016,6 +3017,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id immediateStop
 id included
 id indeterminate
@@ -3145,6 +3147,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id register_CancelCreate
 id register_CreateAccount
 id reverseSawtooth
 id right
@@ -3283,6 +3286,9 @@ id up
 id useLogo
 id username
 id vertical_only
+id viewDescription
+id viewName
+id viewPrice
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3407,6 +3413,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_producs_list_adapter
+layout activity_products_list
 layout activity_register_new_account
 layout custom_dialog
 layout design_bottom_navigation_item
