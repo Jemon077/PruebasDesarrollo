@@ -1,4 +1,4 @@
-#Sat Nov 04 23:18:02 COT 2023
+#Sat Nov 04 23:29:47 COT 2023
 base.0=C\:\\Users\\jasso\\AndroidStudioProjects\\PruebasDesarrollo\\DAMN_TiendaApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\jasso\\AndroidStudioProjects\\PruebasDesarrollo\\DAMN_TiendaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\jasso\\AndroidStudioProjects\\PruebasDesarrollo\\DAMN_TiendaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex

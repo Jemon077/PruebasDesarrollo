@@ -5,6 +5,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -12,12 +15,14 @@ public class ProductsList extends AppCompatActivity {
 
     private RecyclerView listaProducto;
     private ArrayList<Product> listArrayProducts = new ArrayList<>();
+    private Button iconShoppingCart;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_products_list);
 
+        iconShoppingCart = findViewById(R.id.btnViewCar);
         listaProducto = findViewById(R.id.ListAllProducts);
         listaProducto.setLayoutManager(new LinearLayoutManager(this));
 
@@ -36,5 +41,13 @@ public class ProductsList extends AppCompatActivity {
 
         ProducsListAdapter adapter = new ProducsListAdapter (listArrayProducts);
         listaProducto.setAdapter(adapter);
+
+        iconShoppingCart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(ProductsList.this, "ENLISTAR PRODUCTOS A COMPRAR", Toast.LENGTH_LONG).show();
+            }
+        });
+
     }
 }

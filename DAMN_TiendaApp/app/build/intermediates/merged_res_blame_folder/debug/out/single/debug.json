@@ -12,10 +12,6 @@
         "source": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-pngs-24:\\drawable-ldpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.damn_tiendaapp-merged_res-28:/drawable_ic_shopping_cart.xml.flat",
-        "source": "com.example.damn_tiendaapp-main-30:/drawable/ic_shopping_cart.xml"
-    },
-    {
         "merged": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-merged_res-28:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-main-30:\\drawable\\ic_launcher_background.xml"
     },
@@ -86,6 +82,10 @@
     {
         "merged": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-merged_res-28:\\layout_activity_producs_list_adapter.xml.flat",
         "source": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-main-30:\\layout\\activity_producs_list_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-merged_res-28:\\drawable_ic_shopping_cart.xml.flat",
+        "source": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-main-30:\\drawable\\ic_shopping_cart.xml"
     },
     {
         "merged": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-merged_res-28:\\mipmap-xhdpi_ic_launcher.webp.flat",
