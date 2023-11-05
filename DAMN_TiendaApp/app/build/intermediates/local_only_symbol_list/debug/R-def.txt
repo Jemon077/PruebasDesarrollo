@@ -6,7 +6,6 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_shopping_cart
 id ListAllProducts
-id btnVerCarro
 id btnViewCar
 id emailUser
 id imageView
@@ -18,7 +17,6 @@ id password
 id passwordUser
 id register_CancelCreate
 id register_CreateAccount
-id rvListaProductos
 id surnameUser
 id telephoneUser
 id tvCantProductos
@@ -27,7 +25,6 @@ id viewDescription
 id viewName
 id viewPlu
 id viewPrice
-layout activity_car_buys
 layout activity_main
 layout activity_producs_list_adapter
 layout activity_products_list
