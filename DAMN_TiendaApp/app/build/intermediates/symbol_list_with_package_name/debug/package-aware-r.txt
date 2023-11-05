@@ -2724,6 +2724,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable ic_shopping_cart
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -2897,6 +2898,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnVerCarro
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3036,6 +3038,7 @@ id legacy
 id line1
 id line3
 id linear
+id linearLayout
 id listMode
 id list_item
 id login_button
@@ -3156,6 +3159,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rvListaProductos
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3279,6 +3283,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvCantProductos
 id unchecked
 id uniform
 id unlabeled
@@ -3288,6 +3293,7 @@ id username
 id vertical_only
 id viewDescription
 id viewName
+id viewPlu
 id viewPrice
 id view_offset_helper
 id view_transition
@@ -3412,10 +3418,12 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_car_buys
 layout activity_main
 layout activity_producs_list_adapter
 layout activity_products_list
 layout activity_register_new_account
+layout activity_shopping_cart
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

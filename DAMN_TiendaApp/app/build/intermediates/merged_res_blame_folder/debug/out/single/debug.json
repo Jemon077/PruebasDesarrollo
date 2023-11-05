@@ -12,6 +12,10 @@
         "source": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-pngs-24:\\drawable-ldpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "com.example.damn_tiendaapp-merged_res-28:/drawable_ic_shopping_cart.xml.flat",
+        "source": "com.example.damn_tiendaapp-main-30:/drawable/ic_shopping_cart.xml"
+    },
+    {
         "merged": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-merged_res-28:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-main-30:\\drawable\\ic_launcher_background.xml"
     },
@@ -56,6 +60,10 @@
         "source": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-main-30:\\layout\\activity_register_new_account.xml"
     },
     {
+        "merged": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-merged_res-28:\\layout_activity_shopping_cart.xml.flat",
+        "source": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-main-30:\\layout\\activity_shopping_cart.xml"
+    },
+    {
         "merged": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-merged_res-28:\\drawable-mdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-pngs-24:\\drawable-mdpi\\ic_launcher_foreground.png"
     },
@@ -82,6 +90,10 @@
     {
         "merged": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-merged_res-28:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-main-30:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-merged_res-28:\\layout_activity_car_buys.xml.flat",
+        "source": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-main-30:\\layout\\activity_car_buys.xml"
     },
     {
         "merged": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-merged_res-28:\\mipmap-mdpi_ic_launcher_round.webp.flat",

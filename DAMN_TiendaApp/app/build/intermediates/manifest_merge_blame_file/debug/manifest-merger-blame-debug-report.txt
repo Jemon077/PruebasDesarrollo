@@ -20,7 +20,7 @@
 15-->[androidx.core:core:1.9.0] C:\Users\jasso\.gradle\caches\transforms-3\25d17c91d5902985514078e82b64555a\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:5:5-33:19
+17-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:5:5-36:19
 18        android:allowBackup="true"
 18-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -44,61 +44,67 @@
 29-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:13:9-52
 30        <activity
 30-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:15:9-17:40
-31            android:name="com.example.damn_tiendaapp.ProducsListAdapter"
-31-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:16:13-47
+31            android:name="com.example.damn_tiendaapp.ShoppingCart"
+31-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:16:13-41
 32            android:exported="false" />
 32-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:17:13-37
 33        <activity
 33-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:18:9-20:40
-34            android:name="com.example.damn_tiendaapp.ProductsList"
-34-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:19:13-41
+34            android:name="com.example.damn_tiendaapp.ProducsListAdapter"
+34-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:19:13-47
 35            android:exported="false" />
 35-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:20:13-37
 36        <activity
 36-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:21:9-23:40
-37            android:name="com.example.damn_tiendaapp.RegisterNewAccount"
-37-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:22:13-47
+37            android:name="com.example.damn_tiendaapp.ProductsList"
+37-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:22:13-41
 38            android:exported="false" />
 38-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:23:13-37
 39        <activity
-39-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:24:9-32:20
-40            android:name="com.example.damn_tiendaapp.MainActivity"
-40-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:25:13-41
-41            android:exported="true" >
-41-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:26:13-36
-42            <intent-filter>
-42-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:27:13-31:29
-43                <action android:name="android.intent.action.MAIN" />
-43-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:28:17-69
-43-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:28:25-66
-44
-45                <category android:name="android.intent.category.LAUNCHER" />
-45-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:30:17-77
-45-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:30:27-74
-46            </intent-filter>
-47        </activity>
-48
-49        <provider
-49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jasso\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-50            android:name="androidx.startup.InitializationProvider"
-50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jasso\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-51            android:authorities="com.example.damn_tiendaapp.androidx-startup"
-51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jasso\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-52            android:exported="false" >
-52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jasso\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-53            <meta-data
-53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jasso\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jasso\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-55                android:value="androidx.startup" />
-55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jasso\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+39-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:24:9-26:40
+40            android:name="com.example.damn_tiendaapp.RegisterNewAccount"
+40-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:25:13-47
+41            android:exported="false" />
+41-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:26:13-37
+42        <activity
+42-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:27:9-35:20
+43            android:name="com.example.damn_tiendaapp.MainActivity"
+43-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:28:13-41
+44            android:exported="true" >
+44-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:29:13-36
+45            <intent-filter>
+45-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:30:13-34:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:31:17-69
+46-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:31:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:33:17-77
+48-->C:\Users\jasso\AndroidStudioProjects\PruebasDesarrollo\DAMN_TiendaApp\app\src\main\AndroidManifest.xml:33:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jasso\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jasso\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+54            android:authorities="com.example.damn_tiendaapp.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jasso\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jasso\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 56            <meta-data
-56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jasso\.gradle\caches\transforms-3\d78e4e26e1aefc152d0ee4dc6a642534\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jasso\.gradle\caches\transforms-3\d78e4e26e1aefc152d0ee4dc6a642534\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jasso\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jasso\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 58                android:value="androidx.startup" />
-58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jasso\.gradle\caches\transforms-3\d78e4e26e1aefc152d0ee4dc6a642534\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-59        </provider>
-60    </application>
-61
-62</manifest>
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jasso\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jasso\.gradle\caches\transforms-3\d78e4e26e1aefc152d0ee4dc6a642534\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jasso\.gradle\caches\transforms-3\d78e4e26e1aefc152d0ee4dc6a642534\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jasso\.gradle\caches\transforms-3\d78e4e26e1aefc152d0ee4dc6a642534\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+62        </provider>
+63    </application>
+64
+65</manifest>

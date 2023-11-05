@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.DAMN_TiendaApp" >
         <activity
+            android:name="com.example.damn_tiendaapp.ShoppingCart"
+            android:exported="false" />
+        <activity
             android:name="com.example.damn_tiendaapp.ProducsListAdapter"
             android:exported="false" />
         <activity

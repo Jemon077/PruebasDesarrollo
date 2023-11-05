@@ -2723,6 +2723,7 @@ int drawable ic_mtrl_chip_checked_black 0x7f070091
 int drawable ic_mtrl_chip_checked_circle 0x7f070092
 int drawable ic_mtrl_chip_close_circle 0x7f070093
 int drawable ic_search_black_24 0x7f070094
+int drawable ic_shopping_cart 0x7f0700df
 int drawable m3_appbar_background 0x7f070095
 int drawable m3_avd_hide_password 0x7f070096
 int drawable m3_avd_show_password 0x7f070097
@@ -2896,6 +2897,7 @@ int id bounce 0x7f08005e
 int id bounceBoth 0x7f08005f
 int id bounceEnd 0x7f080060
 int id bounceStart 0x7f080061
+int id btnVerCarro 0x7f0801fe
 int id buttonPanel 0x7f080062
 int id cache_measures 0x7f080063
 int id callMeasure 0x7f080064
@@ -3035,6 +3037,7 @@ int id legacy 0x7f0800e7
 int id line1 0x7f0800e8
 int id line3 0x7f0800e9
 int id linear 0x7f0800ea
+int id linearLayout 0x7f0801ff
 int id listMode 0x7f0800eb
 int id list_item 0x7f0800ec
 int id login_button 0x7f0801ec
@@ -3155,6 +3158,7 @@ int id right_icon 0x7f080158
 int id right_side 0x7f080159
 int id rounded 0x7f08015a
 int id row_index_key 0x7f08015b
+int id rvListaProductos 0x7f080200
 int id save_non_transition_alpha 0x7f08015c
 int id save_overlay_view 0x7f08015d
 int id sawtooth 0x7f08015e
@@ -3278,6 +3282,7 @@ int id transition_position 0x7f0801d1
 int id transition_scene_layoutid_cache 0x7f0801d2
 int id transition_transform 0x7f0801d3
 int id triangle 0x7f0801d4
+int id tvCantProductos 0x7f080201
 int id unchecked 0x7f0801d5
 int id uniform 0x7f0801d6
 int id unlabeled 0x7f0801d7
@@ -3287,6 +3292,7 @@ int id username 0x7f0801ef
 int id vertical_only 0x7f0801da
 int id viewDescription 0x7f0801f9
 int id viewName 0x7f0801fc
+int id viewPlu 0x7f080202
 int id viewPrice 0x7f0801fb
 int id view_offset_helper 0x7f0801db
 int id view_transition 0x7f0801dc
@@ -3411,10 +3417,12 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_car_buys 0x7f0b006d
 int layout activity_main 0x7f0b001c
 int layout activity_producs_list_adapter 0x7f0b006b
 int layout activity_products_list 0x7f0b006c
 int layout activity_register_new_account 0x7f0b006a
+int layout activity_shopping_cart 0x7f0b006e
 int layout custom_dialog 0x7f0b001d
 int layout design_bottom_navigation_item 0x7f0b001e
 int layout design_bottom_sheet_dialog 0x7f0b001f

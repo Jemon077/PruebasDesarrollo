@@ -3,14 +3,24 @@ package com.example.damn_tiendaapp;
 import java.util.Currency;
 
 public class Product {
+    private String plu;
     private String name;
     private String description;
     private String value;
 
-    public Product(String name, String description, String value) {
+    public Product(String plu, String name, String description, String value) {
+        this.plu = plu;
         this.name = name;
         this.description = description;
         this.value = value;
+    }
+
+    public String getPlu() {
+        return plu;
+    }
+
+    public void setPlu(String plu) {
+        this.plu = plu;
     }
 
     public String getName() {
