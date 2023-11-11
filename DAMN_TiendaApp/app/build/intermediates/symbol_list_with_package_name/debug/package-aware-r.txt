@@ -2807,6 +2807,7 @@ id FUNCTION
 id ListAllProducts
 id META
 id NO_DEBUG
+id RegisterProductNew
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2898,6 +2899,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnAddProduct
 id btnViewCar
 id buttonPanel
 id cache_measures
@@ -2945,6 +2947,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id describeProductNew
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3069,6 +3072,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id menuNuevo
 id message
 id middle
 id mini
@@ -3103,6 +3107,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nameProductNew
 id nameUser
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
@@ -3151,6 +3156,7 @@ id radio
 id ratio
 id rectangles
 id register_CancelCreate
+id register_CancelNew
 id register_CreateAccount
 id reverseSawtooth
 id right
@@ -3289,6 +3295,7 @@ id unlabeled
 id up
 id useLogo
 id username
+id valueProductNew
 id vertical_only
 id viewDescription
 id viewName
@@ -3417,6 +3424,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_create_product
 layout activity_main
 layout activity_producs_list_adapter
 layout activity_products_list
@@ -3499,6 +3507,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu menu_initial
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -3538,6 +3547,7 @@ string bottomsheet_action_expand
 string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
+string btn_guardar
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -3548,6 +3558,9 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
+string hint_descripcion
+string hint_nombre
+string hint_valor
 string icon_content_description
 string item_view_role_description
 string m3_sys_motion_easing_emphasized
@@ -3583,6 +3596,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string menu
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name

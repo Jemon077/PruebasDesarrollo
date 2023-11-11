@@ -3,6 +3,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">DAMN_TiendaApp</string>
+    <string name="btn_guardar">Guardar Producto</string>
+    <string name="hint_descripcion">Descripcion:</string>
+    <string name="hint_nombre">Nombre:</string>
+    <string name="hint_valor">valor:</string>
+    <string name="menu">Nuevo Producto</string>
     <style name="Base.Theme.DAMN_TiendaApp" parent="Theme.Material3.DayNight.NoActionBar">
         
         

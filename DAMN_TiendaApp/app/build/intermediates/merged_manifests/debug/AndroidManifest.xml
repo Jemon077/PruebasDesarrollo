@@ -28,10 +28,17 @@
         android:testOnly="true"
         android:theme="@style/Theme.DAMN_TiendaApp" >
         <activity
+            android:name="com.example.damn_tiendaapp.createProduct"
+            android:parentActivityName="com.example.damn_tiendaapp.ProductsList" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProductsList" />
+        </activity>
+        <activity
             android:name="com.example.damn_tiendaapp.ShoppingCart"
             android:exported="false" />
         <activity
-            android:name="com.example.damn_tiendaapp.ProducsListAdapter"
+            android:name="com.example.damn_tiendaapp.Adaptadores.ProducsListAdapter"
             android:exported="false" />
         <activity
             android:name="com.example.damn_tiendaapp.ProductsList"

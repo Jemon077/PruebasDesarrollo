@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DAMN_TiendaApp</string>
+    <string name="hint_nombre">Nombre:</string>
+    <string name="hint_descripcion">Descripcion:</string>
+    <string name="hint_valor">valor:</string>
+    <string name="btn_guardar">Guardar Producto</string>
+    <string name="menu">Nuevo Producto</string>
 </resources>

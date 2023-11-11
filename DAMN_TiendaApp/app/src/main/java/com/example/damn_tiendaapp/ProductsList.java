@@ -4,10 +4,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.example.damn_tiendaapp.Adaptadores.ProducsListAdapter;
+import com.example.damn_tiendaapp.DB.DBProduct;
+import com.example.damn_tiendaapp.Entidades.Product;
 
 import java.util.ArrayList;
 
@@ -16,6 +25,7 @@ public class ProductsList extends AppCompatActivity {
     private RecyclerView listaProducto;
     private ArrayList<Product> listArrayProducts = new ArrayList<>();
     private Button iconShoppingCart;
+    private Button btnAddProduct;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,23 +33,12 @@ public class ProductsList extends AppCompatActivity {
         setContentView(R.layout.activity_products_list);
 
         iconShoppingCart = findViewById(R.id.btnViewCar);
+        btnAddProduct = findViewById(R.id.btnAddProduct);
         listaProducto = findViewById(R.id.ListAllProducts);
         listaProducto.setLayoutManager(new LinearLayoutManager(this));
+        DBProduct dbProduct = new DBProduct(ProductsList.this);
 
-        listArrayProducts.add(new Product("1", "Casco","Describe Casco","711"));
-        listArrayProducts.add(new Product("2", "Carcasa","Describe Carcasa","296"));
-        listArrayProducts.add(new Product("3", "Billetera","Describe Billetera","172"));
-        listArrayProducts.add(new Product("4", "Audifonos","Describe Audifonos","223"));
-        listArrayProducts.add(new Product("6", "Gafas","Describe Gafas","588"));
-        listArrayProducts.add(new Product("7", "Cargador","Describe Cargador","643"));
-        listArrayProducts.add(new Product("8", "Cable HDMI","Describe Cable HDMI","754"));
-        listArrayProducts.add(new Product("9", "Esfero","Describe Esfero","172"));
-        listArrayProducts.add(new Product("10", "Lapiz","Describe Lapiz","617"));
-        listArrayProducts.add(new Product("11", "Borrador","Describe Borrador","229"));
-        listArrayProducts.add(new Product("12", "Portaminas","Describe Portaminas","148"));
-        listArrayProducts.add(new Product("13", "Tijeras","Describe Tijeras","895"));
-
-        ProducsListAdapter adapter = new ProducsListAdapter (listArrayProducts);
+        ProducsListAdapter adapter = new ProducsListAdapter (dbProduct.listProducts());
         listaProducto.setAdapter(adapter);
 
         iconShoppingCart.setOnClickListener(new View.OnClickListener() {
@@ -49,5 +48,46 @@ public class ProductsList extends AppCompatActivity {
             }
         });
 
+        btnAddProduct.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(ProductsList.this, "CREAR PRODUCTO NUEVO", Toast.LENGTH_LONG).show();
+                nuevoRegistro();
+            }
+        });
     }
+
+    private void nuevoRegistro() {
+        // Crear un intent para iniciar la actividad "NuevoActivity"
+        Intent intent = new Intent(this, createProduct.class);
+        // Iniciar la actividad "NuevoActivity"
+        startActivity(intent);
+    }
+
+/*
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflar (crear) el menú de opciones desde el archivo de recursos "menu_principal.xml"
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_initial, menu);
+        return true;
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        final int nuevo = R.id.menuNuevo;
+        switch (item.getItemId()) {
+            case 0:
+                // Cuando se selecciona la opción "Nuevo" en el menú de opciones, llamar al método nuevoRegistro()
+                nuevoRegistro();
+                return true;
+            default:
+                // Si no se selecciona ninguna opción específica, permitir que la superclase maneje la selección
+                return super.onOptionsItemSelected(item);
+        }
+    }
+*/
+    // Método para iniciar una nueva actividad cuando se selecciona la opción "Nuevo" en el menú de opciones
+
 }

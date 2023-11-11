@@ -52,12 +52,24 @@
         "source": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-pngs-24:\\drawable-xhdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-merged_res-28:\\layout_activity_create_product.xml.flat",
+        "source": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-main-30:\\layout\\activity_create_product.xml"
+    },
+    {
+        "merged": "com.example.damn_tiendaapp-merged_res-28:/layout_activity_create_product.xml.flat",
+        "source": "com.example.damn_tiendaapp-main-30:/layout/activity_create_product.xml"
+    },
+    {
         "merged": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-merged_res-28:\\layout_activity_register_new_account.xml.flat",
         "source": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-main-30:\\layout\\activity_register_new_account.xml"
     },
     {
         "merged": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-merged_res-28:\\layout_activity_shopping_cart.xml.flat",
         "source": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-main-30:\\layout\\activity_shopping_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-merged_res-28:\\menu_menu_initial.xml.flat",
+        "source": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-main-30:\\menu\\menu_initial.xml"
     },
     {
         "merged": "C:\\Users\\jasso\\.gradle\\daemon\\8.0\\com.example.damn_tiendaapp-merged_res-28:\\drawable-mdpi_ic_launcher_foreground.png.flat",
