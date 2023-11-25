@@ -1,0 +1,3 @@
+com.example.damn_tiendaapp.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

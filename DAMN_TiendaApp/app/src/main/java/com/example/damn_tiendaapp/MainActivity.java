@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.damn_tiendaapp.DB.DBHelper;
+import com.example.damn_tiendaapp.DB.DBUsers;
 
 public class MainActivity extends AppCompatActivity {
     private EditText usernameEditText;
@@ -31,33 +32,35 @@ public class MainActivity extends AppCompatActivity {
         loginButton = findViewById(R.id.login_button);
         newAccountButton = findViewById(R.id.login_newAccount);
 
+        // Crear una instancia de DBHelper para administrar la base de datos
+        DBHelper dbHelper = new DBHelper(MainActivity.this);
+        // Obtener una instancia de la base de datos en modo escritura
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
+
+        if (dbHelper != null) {
+            // Mostrar un mensaje en un Toast indicando que la base de datos se ha creado correctamente
+            Toast.makeText(MainActivity.this, "BASE DE DATOS CREADA", Toast.LENGTH_LONG).show();
+            // Registrar un mensaje en el registro de Logcat con información importante (comentado en este caso)
+            //Log.i(TAG, "BASE DE DATOS CREADA");
+        } else {
+            // Mostrar un mensaje en un Toast indicando que ha ocurrido un error al crear la base de datos
+            Toast.makeText(MainActivity.this, "ERROR AL CREAR LA BASE DE DATOS", Toast.LENGTH_LONG).show();
+            // Registrar un mensaje en el registro de Logcat con información de error (comentado en este caso)
+            //Log.i(TAG, "ERROR AL CREAR LA BASE DE DATOS");
+        }
+
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String user = usernameEditText.getText().toString();
                 String password = passwordEditText.getText().toString();
                 //Validar Usuario y contraseña para ingresar
-                if (user.equals("admin") && password.equals("2468")){
-                       /*// Crear una instancia de DBHelper para administrar la base de datos
-                        DBHelper dbHelper = new DBHelper(MainActivity.this);
-                        // Obtener una instancia de la base de datos en modo escritura
-                        SQLiteDatabase db = dbHelper.getWritableDatabase();
-
-                        if (dbHelper != null) {
-                            // Mostrar un mensaje en un Toast indicando que la base de datos se ha creado correctamente
-                            Toast.makeText(MainActivity.this, "BASE DE DATOS CREADA", Toast.LENGTH_LONG).show();
-                            // Registrar un mensaje en el registro de Logcat con información importante (comentado en este caso)
-                            //Log.i(TAG, "BASE DE DATOS CREADA");
-                        } else {
-                            // Mostrar un mensaje en un Toast indicando que ha ocurrido un error al crear la base de datos
-                            Toast.makeText(MainActivity.this, "ERROR AL CREAR LA BASE DE DATOS", Toast.LENGTH_LONG).show();
-                            // Registrar un mensaje en el registro de Logcat con información de error (comentado en este caso)
-                            //Log.i(TAG, "ERROR AL CREAR LA BASE DE DATOS");
-                        } */
+                boolean u = searchUser(user, password);
+                if (u){
                     //Si cumple las condiciones se permite acceso y se dirige a la activity ProductsList
                     Intent intentLogin = new Intent(MainActivity.this, ProductsList.class);
                     startActivity(intentLogin);
-                    //Toast.makeText(MainActivity.this, "ACCESO AUTORIZADO", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, "ACCESO AUTORIZADO", Toast.LENGTH_LONG).show();
                 }else{
                     Toast.makeText(MainActivity.this, "CREDENCIALES ERRONEAS", Toast.LENGTH_LONG).show();
                 }
@@ -73,5 +76,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private boolean searchUser(String userName, String pass){
+        DBUsers dbUser = new DBUsers(MainActivity.this);
+        boolean r = dbUser.validateUser(userName, pass);
+        return r;
     }
 }

@@ -26,6 +26,7 @@ id register_CreateAccount
 id surnameUser
 id telephoneUser
 id tvCantProductos
+id userName
 id username
 id valueProductNew
 id viewDescription
