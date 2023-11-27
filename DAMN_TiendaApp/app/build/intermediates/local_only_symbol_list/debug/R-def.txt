@@ -2,12 +2,16 @@ R_DEF: Internal format may change without notice
 local
 color black
 color white
+drawable ic_delete_item
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_shopping_cart
 id ListAllProducts
+id ListAllProductsCart
 id RegisterProductNew
 id btnAddProduct
+id btnBuy
+id btnDelete
 id btnViewCar
 id describeProductNew
 id emailUser
@@ -29,16 +33,19 @@ id tvCantProductos
 id userName
 id username
 id valueProductNew
+id viewCant
 id viewDescription
 id viewName
 id viewPlu
 id viewPrice
+id viewPriceFull
 layout activity_create_product
 layout activity_main
 layout activity_producs_list_adapter
 layout activity_products_list
 layout activity_register_new_account
 layout activity_shopping_cart
+layout activity_shopping_cart_adapter
 menu menu_initial
 mipmap ic_launcher
 mipmap ic_launcher_round

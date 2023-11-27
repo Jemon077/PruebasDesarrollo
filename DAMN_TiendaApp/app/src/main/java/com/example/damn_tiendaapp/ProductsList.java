@@ -5,8 +5,10 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
+import android.content.ClipData;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Layout;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -15,7 +17,9 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.damn_tiendaapp.Adaptadores.ProducsListAdapter;
+import com.example.damn_tiendaapp.Adaptadores.ShoppingCartAdapter;
 import com.example.damn_tiendaapp.DB.DBProduct;
+import com.example.damn_tiendaapp.Entidades.ItemShoppingCart;
 import com.example.damn_tiendaapp.Entidades.Product;
 
 import java.util.ArrayList;
@@ -24,8 +28,10 @@ public class ProductsList extends AppCompatActivity {
 
     private RecyclerView listaProducto;
     private ArrayList<Product> listArrayProducts = new ArrayList<>();
+    private ArrayList<ItemShoppingCart> listArraySelectProducts = new ArrayList<>();
     private Button iconShoppingCart;
     private Button btnAddProduct;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +50,8 @@ public class ProductsList extends AppCompatActivity {
         iconShoppingCart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intentLogin = new Intent(ProductsList.this, ShoppingCart.class);
+                startActivity(intentLogin);
                 Toast.makeText(ProductsList.this, "ENLISTAR PRODUCTOS A COMPRAR", Toast.LENGTH_LONG).show();
             }
         });
@@ -63,6 +71,38 @@ public class ProductsList extends AppCompatActivity {
         // Iniciar la actividad "NuevoActivity"
         startActivity(intent);
     }
+
+    public ArrayList<ItemShoppingCart> getlistItems(){
+        return listArraySelectProducts;
+    }
+
+    public void addItem(ItemShoppingCart item){
+        boolean exist = false;
+        for (ItemShoppingCart i: listArraySelectProducts) {
+            if(i.getPlu() == item.getPlu()){
+                exist = true;
+                i.setCant(i.getCant() + item.getCant());
+                i.setPriceFull(i.getCant() * i.getPriceUnit());
+            }
+        }
+        if(!exist){
+            listArraySelectProducts.add(item);
+        }
+    }
+
+    public boolean deleteItem(ItemShoppingCart item){
+        boolean result = false;
+        for(ItemShoppingCart i: listArraySelectProducts){
+            if(i.getPlu() == item.getPlu()){
+                listArraySelectProducts.remove(i);
+                result = true;
+            }
+        }
+        return result;
+    }
+
+
+
 
 /*
     @Override

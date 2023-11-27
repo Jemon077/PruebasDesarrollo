@@ -2712,6 +2712,7 @@ int drawable design_snackbar_background 0x7f070086
 int drawable ic_arrow_back_black_24 0x7f070087
 int drawable ic_clear_black_24 0x7f070088
 int drawable ic_clock_black_24dp 0x7f070089
+int drawable ic_delete_item 0x7f0700e0
 int drawable ic_keyboard_black_24dp 0x7f07008a
 int drawable ic_launcher_background 0x7f07008b
 int drawable ic_launcher_foreground 0x7f07008c
@@ -2804,6 +2805,7 @@ int id BOTTOM_START 0x7f080002
 int id CTRL 0x7f080003
 int id FUNCTION 0x7f080004
 int id ListAllProducts 0x7f080005
+int id ListAllProductsCart 0x7f080209
 int id META 0x7f080006
 int id NO_DEBUG 0x7f080007
 int id RegisterProductNew 0x7f080008
@@ -2899,6 +2901,8 @@ int id bounceBoth 0x7f080061
 int id bounceEnd 0x7f080062
 int id bounceStart 0x7f080063
 int id btnAddProduct 0x7f080064
+int id btnBuy 0x7f080208
+int id btnDelete 0x7f08020a
 int id btnViewCar 0x7f080065
 int id buttonPanel 0x7f080066
 int id cache_measures 0x7f080067
@@ -3297,10 +3301,12 @@ int id userName 0x7f080207
 int id username 0x7f0801ef
 int id valueProductNew 0x7f0801f0
 int id vertical_only 0x7f0801f1
+int id viewCant 0x7f08020b
 int id viewDescription 0x7f0801f2
 int id viewName 0x7f0801f3
 int id viewPlu 0x7f0801f4
 int id viewPrice 0x7f0801f5
+int id viewPriceFull 0x7f08020c
 int id view_offset_helper 0x7f0801f6
 int id view_transition 0x7f0801f7
 int id view_tree_lifecycle_owner 0x7f0801f8
@@ -3430,6 +3436,7 @@ int layout activity_producs_list_adapter 0x7f0b001e
 int layout activity_products_list 0x7f0b001f
 int layout activity_register_new_account 0x7f0b0020
 int layout activity_shopping_cart 0x7f0b0021
+int layout activity_shopping_cart_adapter 0x7f0b006f
 int layout custom_dialog 0x7f0b0022
 int layout design_bottom_navigation_item 0x7f0b0023
 int layout design_bottom_sheet_dialog 0x7f0b0024

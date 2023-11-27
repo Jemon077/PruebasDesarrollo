@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         // Obtener una instancia de la base de datos en modo escritura
         SQLiteDatabase db = dbHelper.getWritableDatabase();
 
-        if (dbHelper != null) {
+        /*if (dbHelper != null) {
             // Mostrar un mensaje en un Toast indicando que la base de datos se ha creado correctamente
             Toast.makeText(MainActivity.this, "BASE DE DATOS CREADA", Toast.LENGTH_LONG).show();
             // Registrar un mensaje en el registro de Logcat con información importante (comentado en este caso)
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this, "ERROR AL CREAR LA BASE DE DATOS", Toast.LENGTH_LONG).show();
             // Registrar un mensaje en el registro de Logcat con información de error (comentado en este caso)
             //Log.i(TAG, "ERROR AL CREAR LA BASE DE DATOS");
-        }
+        }*/
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
